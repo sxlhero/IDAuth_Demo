@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/devVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备固件版本：未知" />
+
+    <TextView
+        android:id="@+id/devSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备序列号：未知" />
+    
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二维码输出" />
+
+    <EditText
+        android:id="@+id/et_scaninfo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/bt_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫描" />
+
+</LinearLayout>
